@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "types": [],
+    "baseUrl": "src",
+    "paths": {
+      "src/abis/*": [
+        "./abis/*"
+      ],
+      "src/assets/*": [
+        "./assets/*"
+      ],
+      "src/contexts/*": [
+        "./contexts/*"
+      ],
+      "src/constants/*": [
+        "./constants/*"
+      ],
+      "src/components": [
+        "./components"
+      ],
+      "src/contracts": [
+        "./contracts"
+      ],
+      "src/lib/*": [
+        "./lib/*"
+      ],
+      "src/shared/*": [
+        "./shared/*"
+      ],
+      "src/services": [
+        "./services"
+      ],
+      "src/store/*": [
+        "./store/*"
+      ],
+      "src/styles/*": [
+        "./styles/*"
+      ],
+      "src/utils": [
+        "./utils"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "migrations",
+    "*/node_modules/*",
+    "node_modules/*",
+    "node_modules/**/*.js",
+    "**/*.js",
+    "**/*.jsx"
+  ]
+}
